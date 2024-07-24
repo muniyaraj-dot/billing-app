@@ -1,0 +1,82 @@
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 30%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.input-field[type='number'] {
+    padding: 8px 10px;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+.table-container {
+    margin-top: 20px;
+}
+
+.bill-table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.bill-table th,
+.bill-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.bill-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.bill-table td {
+    background-color: #fff;
+}
+
+.bill-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.bill-table tbody tr:hover {
+    background-color: #e9f5f5;
+}

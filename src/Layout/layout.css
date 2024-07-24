@@ -1,0 +1,6 @@
+.outlet{
+    left: 220px;
+    position: relative;
+    width: 70%;
+    background-origin: content-box;
+}
