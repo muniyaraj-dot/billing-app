@@ -9,4 +9,7 @@ export const getTabName = (params)=>{
     if(path === '/sales'){
         return 'Sales'
     }
+    if(path === `/edit-sale/${params.saleIndex}`){
+        return 'Edit Sale'
+    }
 }
